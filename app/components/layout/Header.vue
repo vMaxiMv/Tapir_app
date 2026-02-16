@@ -2,9 +2,9 @@
   <header class="header">
     <div class="header__container">
       <div class="header__logo">
-        <a href="#" class="header__logo-link">
+        <NuxtLink to="/" class="header__logo-link">
           <div class="header__logo-icon"></div>
-        </a>
+        </NuxtLink>
       </div>
 
       <nav class="header__nav">

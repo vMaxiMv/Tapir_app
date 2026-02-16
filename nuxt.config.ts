@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   css: ["~/assets/scss/main.scss"],
 
-  modules: ["@nuxt/fonts"],
+  modules: ["@nuxt/fonts", "@nuxt/icon", "@nuxt/image"],
 
   components: {
     dirs: ["~/components", { path: "~/components", pathPrefix: false }],

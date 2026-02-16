@@ -60,6 +60,7 @@ const formatPrice = (price: number) => price.toLocaleString("ru-RU");
     position: relative;
     overflow: hidden;
     aspect-ratio: 1 / 1;
+    width: 100%;
     background: $header_background;
   }
 
@@ -67,6 +68,9 @@ const formatPrice = (price: number) => price.toLocaleString("ru-RU");
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-fit: cover;
+    object-position: center;
+    display: block;
     transition: transform 0.4s ease;
 
     .product-card:hover & {

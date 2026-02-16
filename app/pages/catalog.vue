@@ -48,8 +48,6 @@ const { products, isLoading, hasError, hasMore, loadMore, retryLoad } =
 @use "~/assets/scss/_variables" as *;
 
 .catalog {
-  padding: 60px 0 100px;
-
   &__header {
     text-align: center;
     margin-bottom: 48px;
@@ -86,25 +84,25 @@ const { products, isLoading, hasError, hasMore, loadMore, retryLoad } =
   }
 
   &__button {
-    background: #000;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 16px 48px;
-    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 24px;
+    border: 1px solid #000;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.2s;
   }
 
   &__loading {
-    font-size: 16px;
-    color: #666;
+    font-size: 14px;
+    color: #000;
   }
 
   &__error {
     &-text {
-      color: #666;
+      color: #000;
       margin-bottom: 16px;
     }
   }

@@ -1,0 +1,26 @@
+@use "reset";
+@use "variables";
+@use "mixins";
+@use "base";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #000;
+  --color-accent: #ff0000;
+  --font-family:
+    "Golos Text", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}

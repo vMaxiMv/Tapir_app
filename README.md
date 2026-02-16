@@ -1,75 +1,28 @@
-# Nuxt Minimal Starter
-
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
+# Tapir App
+## Описание
+Выполненное в соответстии с требованиями трестовое задание
+## Запуск
+```
+git clone ...
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Соответствие требованиям задания
+## Функционал
+1. Главная страница с кнопкой для перехода на страницу с каталогом
+2. Страница с каталогом товаров, полученный при помощи серверного рендеринга список товаров
+3. Использовался ts, есть поддрежка ssr, вертска адаптирована под мобильные устройства, название классов по БЭМ методологии, scss для стелей, grid и flex в наличии
 
-Build the application for production:
+## Стек
+1. nuxt 4 весрсии
+2. typeScipt для типизации
+3. scss для стилей
 
-```bash
-# npm
-npm run build
+## Архитектура
+1. В качестве архитектуры выбрана простая модульная архитектура, где сущности разделены по их ответственности и модули изолированы
+2. Такая организация проекта в данном случае удобна из-за ее простоты, понятности и в то же время гибкости
+3. Не выбрал fsd или атомарную архитектуру из-за малого размера приложения и ограниченного количества людей на проекте
 
-# pnpm
-pnpm build
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   

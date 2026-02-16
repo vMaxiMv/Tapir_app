@@ -3,7 +3,8 @@
 @use "mixins";
 @use "base";
 
-html {
+html,
+body {
   box-sizing: border-box;
 }
 
